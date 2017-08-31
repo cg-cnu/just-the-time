@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.4",
+    "express": "latest",
     "moment": "latest"
   },
   "engines": {
