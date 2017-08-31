@@ -3,7 +3,7 @@ var moment = require('moment');
 var app = express();
 
 app.get("/", function (request, response) {
-  const date = moment()
+  const date = moment().format("YYYY-MM-DD HH:mm:ss Z")
   response.send(date);
 });
 
