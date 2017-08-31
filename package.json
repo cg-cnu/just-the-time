@@ -1,0 +1,25 @@
+{
+  "name": "just-the-time",
+  "version": "0.0.1",
+  "description": "Yes, Just the time!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "moment": "latest"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://just-the-time.glitch.me"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
